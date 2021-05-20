@@ -55,7 +55,8 @@
       if len(sudokustart)!=81:
           with open(default,'r') as F:
               sudokustart=F.readline().strip()
-      Formatter(sudokustart=sudokustart)  
+      Formatter(sudokustart=sudokustart) 
+```
 
 * Αποτέλεσμα
 
