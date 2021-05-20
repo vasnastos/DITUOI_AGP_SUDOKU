@@ -15,7 +15,11 @@
 
 
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
-* Read Data input:[data input]()
+* Read Data input:[data input](readdata.py)
+
+> ΑΠΟΤΕΛΕΣΜΑ
+> ![ResourceOut](RESOURCES/sudoku.png)
+
 * Pencil Mark:[pencil mark]()
 
 ## ORTOOLS Examples
