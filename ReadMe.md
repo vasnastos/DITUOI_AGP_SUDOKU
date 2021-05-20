@@ -16,7 +16,6 @@
 
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
 * Read Data input:[data input](readdata.py)
-* 
 
 ```
     def Formatter(sudokustart):
