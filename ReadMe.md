@@ -316,6 +316,7 @@
 * ΑΠΟΤΕΛΕΣΜΑΤΑ
    1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results](results.out)
    2. ΠΙΝΑΚΑΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ
+  
    ![resultsmarking](RESOURCES/maqrkingnums.png)
 
 ## ORTOOLS Examples
