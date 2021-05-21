@@ -1,6 +1,7 @@
 # Assignment 3-Or TOOLS
 
 **:point_right:pip install ortools**
+**:point_right:[string iteration](strgnread.py)**
 
 ![sudokuimage](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/1200px-Sudoku-by-L2G-20050714.svg.png)
 
