@@ -317,9 +317,11 @@
 
 * ΑΠΟΤΕΛΕΣΜΑΤΑ
    1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results](results.out)
-   2. ΠΙΝΑΚΑΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ
+   2. ΑΠΟΤΕΛΕΣΜΑΤΑ MARKING ΣΕ TXT:[txt results](resultsmarking.out) 
+   3. ΠΙΝΑΚΑΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ
   
    ![resultsmarking](RESOURCES/maqrkingnums.png)
-
+   
+   
 ## ORTOOLS Examples
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
