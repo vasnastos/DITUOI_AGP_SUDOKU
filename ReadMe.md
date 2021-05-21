@@ -181,8 +181,8 @@
 ```
 
 * ΑΠΟΤΕΛΕΣΜΑΤΑ
-   1.ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results]()
-   2.ΠΙΝΑΚΑΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ
+   1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results](results.out)
+   2. ΠΙΝΑΚΑΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ
 
 ## ORTOOLS Examples
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
