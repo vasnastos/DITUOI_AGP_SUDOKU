@@ -59,7 +59,7 @@
 
 * Αποτέλεσμα
 
-![ResourceOut](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudoku.png)
+![ResourceOut](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/sudoku.png)
 
 * Pencil Mark:[pencil mark](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/Pencilmark.py)
 ```
