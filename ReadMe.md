@@ -63,7 +63,7 @@
 
 * Pencil Mark:[pencil mark]()
 ```
-    from readdata import StringRead
+    from readdatatemplate import StringRead
     from functools import reduce
 
     class square:
