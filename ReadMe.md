@@ -61,7 +61,7 @@
 
 ![ResourceOut](RESOURCES/sudoku.png)
 
-* Pencil Mark:[pencil mark]()
+* Pencil Mark:[pencil mark](Pencilmark.py)
 ```
     from readdatatemplate import StringRead
     from functools import reduce
