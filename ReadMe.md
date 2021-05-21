@@ -181,7 +181,7 @@
     if __name__=='__main__':
         main()
 ```
-* Pencil Mark cmd Output:[](pencilMark.py)
+* Pencil Mark cmd Output:[Pencil Marking](PencilMark.py)
 ```
     from readdatatemplate import StringRead,Formatter
     from functools import reduce
