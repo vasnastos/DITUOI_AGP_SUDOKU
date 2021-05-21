@@ -185,6 +185,6 @@
    2. ΠΙΝΑΚΑΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ
 
 ## ORTOOLS Examples
-* [OR_TOOLS chgoogs](https://github.com/chgogos/dituoi_agp/tree/main/tools/ortools)
+* [OR_TOOLS chgogos](https://github.com/chgogos/dituoi_agp/tree/main/tools/ortools)
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
 
