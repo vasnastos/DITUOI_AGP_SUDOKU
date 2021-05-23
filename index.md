@@ -185,7 +185,7 @@
    2. ΑΠΟΤΕΛΕΣΜΑΤΑ (FORMATTED) ΣΕ TXT:[formmatted results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/results.out)
    3. ΤΕΛΙΚΟ ΑΠΟΤΕΛΕΣΜΑ
    
-       [RESIMAGEGITHUBERROR](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/maqrkingnums.png)
+       ![RESIMAGEGITHUBERROR](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/maqrkingnums.png)
 
 ## ORTOOLS Examples
 * [OR_TOOLS chgogos](https://github.com/chgogos/dituoi_agp/tree/main/tools/ortools)
