@@ -191,3 +191,4 @@
 * [OR_TOOLS chgogos](https://github.com/chgogos/dituoi_agp/tree/main/tools/ortools)
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
 * [LATIN SQUARE EXAMPLE](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/latinSquaresCpSat.ipynb)
+* [SUDOKU DATASET](http://magictour.free.fr/subig20)
