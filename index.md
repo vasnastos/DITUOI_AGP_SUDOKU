@@ -17,49 +17,49 @@
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
 * Read Data input:[data input](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/readdata.py)
 
-```
-    def Formatter(sudokustart):
-        data=list()
-        #15 χαρακτήρες η κάθε γραμμή
-        #13 γραμμές συνολικά
-        counter=9
-        previouscounter=0
-        while counter<=81:
-            data.append(sudokustart[previouscounter:counter])
-            previouscounter=counter
-            counter+=9
-        totallinelength=len(data[0])+4
-        print(str('.'+'-'*6+'')*3,end='')
-        print('.')
-        counter=0
-        for x in data:
-            if counter%3==0 and counter!=0:
-                print(':',end='')
-                print('------ '*2,end='')
-                print('------:')
-            print('|',end='')
-            for j in range(0,len(x),3):
-                print(str(x[j]) if x[j]!='0' else '.',str(x[j+1]) if x[j+1]!='0' else '.',str(x[j+2]) if x[j+2]!='0' else '.','|',end='')
-            print()
-            counter+=1
-        print(str('.'+'-'*6+'')*3+'.')
+    ```
+        def Formatter(sudokustart):
+            data=list()
+            #15 χαρακτήρες η κάθε γραμμή
+            #13 γραμμές συνολικά
+            counter=9
+            previouscounter=0
+            while counter<=81:
+                data.append(sudokustart[previouscounter:counter])
+                previouscounter=counter
+                counter+=9
+            totallinelength=len(data[0])+4
+            print(str('.'+'-'*6+'')*3,end='')
+            print('.')
+            counter=0
+            for x in data:
+                if counter%3==0 and counter!=0:
+                    print(':',end='')
+                    print('------ '*2,end='')
+                    print('------:')
+                print('|',end='')
+                for j in range(0,len(x),3):
+                    print(str(x[j]) if x[j]!='0' else '.',str(x[j+1]) if x[j+1]!='0' else '.',str(x[j+2]) if x[j+2]!='0' else '.','|',end='')
+                print()
+                counter+=1
+            print(str('.'+'-'*6+'')*3+'.')
 
-  def main():
-      sudokustart=''
-      if len(sys.argv)!=2:
-          with open(default,'r') as F:
-              sudokustart=F.readline().strip()
-      else:
-          sudokustart=sys.argv[1]
-      if len(sudokustart)!=81:
-          with open(default,'r') as F:
-              sudokustart=F.readline().strip()
-      Formatter(sudokustart=sudokustart) 
-```
+      def main():
+          sudokustart=''
+          if len(sys.argv)!=2:
+              with open(default,'r') as F:
+                  sudokustart=F.readline().strip()
+          else:
+              sudokustart=sys.argv[1]
+          if len(sudokustart)!=81:
+              with open(default,'r') as F:
+                  sudokustart=F.readline().strip()
+          Formatter(sudokustart=sudokustart) 
+    ```
 
-* Αποτέλεσμα
+    * Αποτέλεσμα
 
-![ResourceOut](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/sudoku.png?token=APD2HAJ6YRAI5LLZ33UF4DLAWM7VI)
+    ![ResourceOut](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/sudoku.png?token=APD2HAJ6YRAI5LLZ33UF4DLAWM7VI)
 
 * Pencil Mark:[pencil mark](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/Pencilmark.py)
 ```
