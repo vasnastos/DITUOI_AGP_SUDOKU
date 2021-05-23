@@ -47,4 +47,4 @@ def main():
       sudokustart=StringRead()
       Formatter(sudokustart) 
 
-main()
+#main()
