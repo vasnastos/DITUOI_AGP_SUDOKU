@@ -1,8 +1,22 @@
     
 import os
 import sys
+import math
+from typing import List
 
 default=os.path.join('','sudoku.sod')
+
+def ToBoard(rawdata:str)->List:
+    gridsize=int(math.sqrt(len(rawdata)))
+    substrs=list()
+    start=0
+    next=gridsize
+    while next<=len(rawdata):
+      substrs.append(rawdata[start:next])
+      start=next
+      next+=gridsize
+    return substrs
+
 
 def Formatter(data):
         totallinelength = len(data[0])+4
