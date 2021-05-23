@@ -182,7 +182,7 @@
 
     * ΑΠΟΤΕΛΕΣΜΑΤΑ
        1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/results.out)
-       2. ΑΠΟΤΕΛΕΣΜΑΤΑ (FORMATTED) ΣΕ TXT:[formmatted results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/results.out)
+       2. ΑΠΟΤΕΛΕΣΜΑΤΑ (FORMATTED) ΣΕ TXT:[formatted results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/results.out)
        3. ΤΕΛΙΚΟ ΑΠΟΤΕΛΕΣΜΑ
 
            ![RESIMAGEGITHUBERROR](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/maqrkingnums.png)
