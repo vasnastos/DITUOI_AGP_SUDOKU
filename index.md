@@ -1,6 +1,6 @@
 # Assignment 3-Or TOOLS
 
-**:point_right:pip install ortools**
+**pip install ortools**
 
 ![sudokuimage](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/1200px-Sudoku-by-L2G-20050714.svg.png)
 
@@ -59,7 +59,7 @@
 
 * Αποτέλεσμα
 
-![ResourceOut](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/sudoku.png)
+![ResourceOut](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/sudoku.png?token=APD2HAJ6YRAI5LLZ33UF4DLAWM7VI)
 
 * Pencil Mark:[pencil mark](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/Pencilmark.py)
 ```
@@ -182,9 +182,12 @@
 
 * ΑΠΟΤΕΛΕΣΜΑΤΑ
    1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/results.out)
-   2. ΠΙΝΑΚΑΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ
+   2. ΑΠΟΤΕΛΕΣΜΑΤΑ (FORMATTED) ΣΕ TXT:[formmatted results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/results.out)
+   3. ΤΕΛΙΚΟ ΑΠΟΤΕΛΕΣΜΑ
+   
+       [RESIMAGEGITHUBERROR](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/maqrkingnums.png)
 
 ## ORTOOLS Examples
 * [OR_TOOLS chgogos](https://github.com/chgogos/dituoi_agp/tree/main/tools/ortools)
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
-
+* [LATIN SQUARE EXAMPLE](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/latinSquaresCpSat.ipynb)
