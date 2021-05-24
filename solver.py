@@ -12,8 +12,8 @@ def SolveSudoku():
     for x in data:
         print(x)
     print()
+    #ΔΗΜΙΟΥΡΓΙΑ ΜΟΝΤΕΛΟΥ
     model=cp_model.CpModel()
-    model
     x=dict()
     for i in range(0,maxval):
         for j in range(0,len(data[i])):
@@ -46,6 +46,7 @@ def SolveSudoku():
         for rowid in range(maxval):
             for colid in range(maxval):
                 result+=str(solver.Value(x[rowid,colid]))
+    print(result)
     output=ToBoard(result)
     print('Output Data')
     Formatter(output) 

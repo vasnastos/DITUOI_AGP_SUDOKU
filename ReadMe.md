@@ -17,7 +17,7 @@
 
 
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
-* Εμφάνιση preview για sudoku:[data input](readdata.py)
+* Εμφάνιση preview για sudoku:[data input](1/readdata.py)
 
 ```
     def Formatter(sudokustart):
@@ -316,8 +316,8 @@
 ```
 
 * ΑΠΟΤΕΛΕΣΜΑΤΑ
-   1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results](results.out)
-   2. ΑΠΟΤΕΛΕΣΜΑΤΑ MARKING ΣΕ TXT:[txt results](resultsmarking.out) 
+   1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results](2/results.out)
+   2. ΑΠΟΤΕΛΕΣΜΑΤΑ MARKING ΣΕ TXT:[txt results](2/resultsmarking.out) 
    3. ΠΙΝΑΚΑΣ ΑΠΟΤΕΛΕΣΜΑΤΩΝ
   
    ![resultsmarking](RESOURCES/maqrkingnums.png)
