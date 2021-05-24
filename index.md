@@ -193,6 +193,7 @@
   * ΑΠΟΤΕΛΕΣΜΑΤΑ SUDOKU ΣΕ ΤΧΤ ΜΟΡΦΗ:[results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/solverresults.out)
   * ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΠΟΛΛΑΠΛΩΝ ΠΡΟΒΛΗΜΑΤΩΝ SUDOKU:[multiple inputs](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudokusequence.input)
   * ΑΠΟΤΕΛΕΣΜΑ:[results.html](output.html)
+ 
 ## ORTOOLS Examples
 * [OR_TOOLS chgogos](https://github.com/chgogos/dituoi_agp/tree/main/tools/ortools)
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
