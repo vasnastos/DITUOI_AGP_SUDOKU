@@ -186,7 +186,7 @@
        2. ΑΠΟΤΕΛΕΣΜΑΤΑ (FORMATTED) ΣΕ TXT:[formatted results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/2/resultsmarking.out)
        3. ΤΕΛΙΚΟ ΑΠΟΤΕΛΕΣΜΑ
 
-           ![RESIMAGEGITHUBERROR](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/maqrkingnums.png)
+           ![RESIMAGEGITHUBERROR](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/maqrkingnums.png?token=APD2HAOG774EASTTIUWAIO3AWR3LA)
    
 ## ΕΠΙΛΥΣΗ SUDOKU
   * [LATIN SQUARE](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/latinSquaresCpSat.ipynb)
