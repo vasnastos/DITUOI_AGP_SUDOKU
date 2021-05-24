@@ -3,7 +3,7 @@ import sys
 import math
 from typing import List
 
-default=os.path.join('','sudoku.sod')
+default=os.path.join('','RESOURCES','sudoku.sod')
 
 def ToBoard(rawdata:str)->List:
     gridsize=int(math.sqrt(len(rawdata)))
