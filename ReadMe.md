@@ -384,7 +384,7 @@
     * ΑΠΟΤΕΛΕΣΜΑΤΑ
         1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT ΑΡΧΕΙΟ:[results txt](3/solveroutput.out)
         2. FORMATTED ΑΠΟΤΕΛΕΣΜΑΤΑ:[solver results](3/solveresults.out)
-        
+
         ![cpsat results](3/solverresults.png)
     
 <br><br>   
@@ -393,5 +393,5 @@
 ## ORTOOLS Examples
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
 * [LATIN SQUARE](3/latinSquaresCpSat.ipynb)
-* [nqueens](https://github.com/vasnastos/AGP/blob/master/OR_TOOLS/nqueens.py)
+* [NQUEENS](https://github.com/vasnastos/AGP/blob/master/OR_TOOLS/nqueens.py)
 
