@@ -384,6 +384,7 @@
     * ΑΠΟΤΕΛΕΣΜΑΤΑ
         1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT ΑΡΧΕΙΟ:[results txt](3/solveroutput.out)
         2. FORMATTED ΑΠΟΤΕΛΕΣΜΑΤΑ:[solver results](3/solveresults.out)
+        
         ![cpsat results](3/solverresults.png)
     
 <br><br>   
