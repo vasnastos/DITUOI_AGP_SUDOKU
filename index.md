@@ -192,7 +192,7 @@
   * [LATIN SQUARE](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/latinSquaresCpSat.ipynb)
   * ΑΠΟΤΕΛΕΣΜΑΤΑ SUDOKU ΣΕ ΤΧΤ ΜΟΡΦΗ:[results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/solverresults.out)
   * ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΠΟΛΛΑΠΛΩΝ ΠΡΟΒΛΗΜΑΤΩΝ SUDOKU:[multiple inputs](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudokusequence.input)
-  * ΑΠΟΤΕΛΕΣΜΑ
+  * ΑΠΟΤΕΛΕΣΜΑ:[results.html](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/output.html)
 
 ## ORTOOLS Examples
 * [OR_TOOLS chgogos](https://github.com/chgogos/dituoi_agp/tree/main/tools/ortools)
