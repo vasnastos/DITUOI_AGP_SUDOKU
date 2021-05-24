@@ -59,7 +59,7 @@
 
     * Αποτέλεσμα
 
-    ![ResourceOut](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/sudoku.png?token=APD2HAJ6YRAI5LLZ33UF4DLAWM7VI)
+        ![ResourceOut](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/sudoku.png?token=APD2HAJ6YRAI5LLZ33UF4DLAWM7VI)
 
 * Pencil Mark:[pencil mark](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/Pencilmark.py)
     ```
@@ -181,11 +181,17 @@
     ```
 
     * ΑΠΟΤΕΛΕΣΜΑΤΑ
-       1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/results.out)
-       2. ΑΠΟΤΕΛΕΣΜΑΤΑ (FORMATTED) ΣΕ TXT:[formatted results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/results.out)
+       1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT:[txt results](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/2/results.out)
+       2. ΑΠΟΤΕΛΕΣΜΑΤΑ (FORMATTED) ΣΕ TXT:[formatted results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/2/resultsmarking.out)
        3. ΤΕΛΙΚΟ ΑΠΟΤΕΛΕΣΜΑ
 
            ![RESIMAGEGITHUBERROR](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/maqrkingnums.png)
+   
+    ## ΕΠΙΛΥΣΗ SUDOKU
+     * [LATIN SQUARE](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/latinSquaresCpSat.ipynb)
+     * ΑΠΟΤΕΛΕΣΜΑΤΑ SUDOKU ΣΕ ΤΧΤ ΜΟΡΦΗ:[results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/solverresults.out)
+     * ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΠΟΛΛΑΠΛΩΝ ΠΡΟΒΛΗΜΑΤΩΝ SUDOKU:[]()
+     * ΑΠΟΤΕΛΕΣΜΑ
 
 ## ORTOOLS Examples
 * [OR_TOOLS chgogos](https://github.com/chgogos/dituoi_agp/tree/main/tools/ortools)
