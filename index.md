@@ -12,7 +12,7 @@
 
 * [ΕΚΦΩΝΗΣΗ](https://chgogos.github.io/dituoi_agp/resources/agp_assignment20210515.pdf)
 * [Sudoku Explanation](https://www.sudoku.name/rules/el)
-* ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΑΚΟΛΟΥΘΙΑΣ SUDOKU:[sudoku.sod](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/sudoku.sod)
+* [sudoku.sod](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/sudoku.sod)
 
 
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
