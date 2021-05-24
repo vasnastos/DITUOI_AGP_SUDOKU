@@ -12,7 +12,7 @@
 
 * [ΕΚΦΩΝΗΣΗ](https://chgogos.github.io/dituoi_agp/resources/agp_assignment20210515.pdf)
 * [Sudoku Explanation](https://www.sudoku.name/rules/el)
-* [sudoku.sod](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/sudoku.sod)
+* [sudoku.sod](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudoku.sod)
 
 
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
@@ -191,7 +191,7 @@
 ## ΕΠΙΛΥΣΗ SUDOKU
   * [LATIN SQUARE](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/latinSquaresCpSat.ipynb)
   * ΑΠΟΤΕΛΕΣΜΑΤΑ SUDOKU ΣΕ ΤΧΤ ΜΟΡΦΗ:[results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/solverresults.out)
-  * ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΠΟΛΛΑΠΛΩΝ ΠΡΟΒΛΗΜΑΤΩΝ SUDOKU:[]()
+  * ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΠΟΛΛΑΠΛΩΝ ΠΡΟΒΛΗΜΑΤΩΝ SUDOKU:[multiple inputs](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudokusequence.input)
   * ΑΠΟΤΕΛΕΣΜΑ
 
 ## ORTOOLS Examples
