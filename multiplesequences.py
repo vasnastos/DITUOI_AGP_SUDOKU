@@ -45,6 +45,15 @@ def Sequences():
         display:inline-block;
         margin-bottom:90px;
     }
+
+    caption
+    {
+        font-size:21px;
+        font-weight:bold;
+        color:red;
+        background-color:black;
+    }
+
     #fill
     {
       width:30px;
@@ -98,10 +107,10 @@ def Sequences():
         print('\tSequence')
         print('**'*12)
         boardsequence=ToBoard(k)
-        code+=f'<div style=\"text-align:left; margin-bottom:30px; font-size:19px; font-weight:bold;\"><li>Sequence:{k}</li></div><div class=\"divsource\"><table>'
+        code+=f'<div style=\"text-align:left; margin-bottom:30px; font-size:19px; font-weight:bold;\"><li>Sequence:{k}</li></div><div class=\"divsource\"><table><caption>PREVIEW</caption>'
         code+=Formatter(boardsequence)
         code+="</table></div>"
-        code+="<div class=\"resultsource\"><br><table>"
+        code+="<div class=\"resultsource\"><br><table><caption>SOLUTION</caption>"
         code+=Formatter(ToBoard(solver(boardsequence)))
         code+="</table></div>"
     code+="</center></body></html>"
