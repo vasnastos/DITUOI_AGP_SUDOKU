@@ -82,43 +82,6 @@ def MakeRowColumnMap(data):
             records.update({key: rec})
     return records
 
-
-def Marking(data):
-    rclist = MakeRowColumnMap(data)
-    squares = MakeSquares(data)
-    squareid = dict()
-    for i in range(len(squares)):
-        squareid.update({i: squares[i]})
-    squareindex = 0
-    columncount = 3
-
-    # Find Markings
-    markings = list()
-    availablenumbers = [chr(x) for x in range(48, 58)]
-    for i in range(len(data)):
-        if i % 3 == 0 and i != 0:
-            squareindex += 1
-        tempid = squareindex
-        for j in range(len(data[i])):
-            if j % 3 == 0 and j != 0:
-                tempid += 3
-            key = f"{i}-{j}"
-            if data[i][j] == "0":
-                marker = MarkingTuple(i, j)
-                for l in availablenumbers:
-                    if (
-                        l not in str(squareid[tempid])
-                        and l not in rclist[key].textrow
-                        and l not in rclist[key].textcol
-                    ):
-                        marker.addMarker(l)
-                markings.append(marker)
-    searchmark = dict()
-    for marker in markings:
-        searchmark.update({f"{marker.row}-{marker.column}": marker})
-    return searchmark
-
-
 def CmdMarking(data, searchmark):
     counter = 0
     # Start with printing results
@@ -155,23 +118,42 @@ def CmdMarking(data, searchmark):
     print(str("." + "-" * (2 * gap) + "") * 3 + ".")
 
 
-def main():
-    print("\t\tSudoku Game solution using OR_TOOLS")
-    print("##" * 30)
-    data = StringRead()
-    raw_data = "".join(data)
-    print("Data input:{}".format(raw_data))
-    print("\nInput Analyse as rows")
-    print("*" * 45)
-    tableFrame = DataFrame(data, columns=["ROWS"])
-    print(tableFrame, end="\n\n")
-    print("\nSudoku Preview")
-    Formatter(data)
-    print("\n")
-    print("\nSudoku Marking Preview")
-    marks = Marking(data)
-    CmdMarking(data, marks)
+def Marking(data):
+    rclist = MakeRowColumnMap(data)
+    squares = MakeSquares(data)
+    squareid = dict()
+    for i in range(len(squares)):
+        squareid.update({i: squares[i]})
+    squareindex = 0
+    columncount = 3
+
+    # Find Markings
+    markings = list()
+    availablenumbers = [chr(x) for x in range(48, 58)]
+    for i in range(len(data)):
+        if i % 3 == 0 and i != 0:
+            squareindex += 1
+        tempid = squareindex
+        for j in range(len(data[i])):
+            if j % 3 == 0 and j != 0:
+                tempid += 3
+            key = f"{i}-{j}"
+            if data[i][j] == "0":
+                marker = MarkingTuple(i, j)
+                for l in availablenumbers:
+                    if (
+                        l not in str(squareid[tempid])
+                        and l not in rclist[key].textrow
+                        and l not in rclist[key].textcol
+                    ):
+                        marker.addMarker(l)
+                markings.append(marker)
+    searchmark = dict()
+    for marker in markings:
+        searchmark.update({f"{marker.row}-{marker.column}": marker})
+    CmdMarking(data,searchmark)
 
 
-if __name__ == "__main__":
-    main()
+
+
+

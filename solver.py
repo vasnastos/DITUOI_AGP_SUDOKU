@@ -41,8 +41,7 @@ def SolveSudoku(data):
         for rowid in range(maxval):
             for colid in range(maxval):
                 result+=str(solver.Value(x[rowid,colid]))
-    output=ToBoard(result)
-    Formatter(output) 
+    return result
 
 
 

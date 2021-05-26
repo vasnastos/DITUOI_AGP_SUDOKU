@@ -56,6 +56,14 @@ def StringRead():
             counter += 9
     return data
 
+def Sequences(filename):
+    data=list()
+    with open(filename,"r") as F:
+        for k in F:
+            data.append(k.strip())
+    return data
+
+
 def main():
       sudokustart=StringRead()
       Formatter(sudokustart) 
