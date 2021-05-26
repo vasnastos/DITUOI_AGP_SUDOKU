@@ -41,9 +41,8 @@ def verifySudoku(testSudoku, result):
         if(len(resultsudoku)!=9):
             print(resultsudoku)
             return False
-    return True
 
-    resultset=set()
+    resultset=list()
     resultset.append(set())
     resultset.append(set())
     resultset.append(set())
@@ -51,9 +50,9 @@ def verifySudoku(testSudoku, result):
     for i in range(0,9):
         index=0
         for j in range(0,9,3):
-          resultset[index].append(resultInt[i*9+j])
-          resultset[index].append(resultInt[i*9+j+1])
-          resultset[index].append(resultInt[i*9+j+2])
+          resultset[index].add(resultInt[i*9+j])
+          resultset[index].add(resultInt[i*9+j+1])
+          resultset[index].add(resultInt[i*9+j+2])
           index+=1
         if counter%3==0 and counter!=0:
             if len([1 for x in resultset if len(x)==9])!=3:
