@@ -1,5 +1,7 @@
 # Assignment 3-Or TOOLS
 
+!!!ΠΡΟΤΥΠΟ ΕΡΓΑΣΙΑΣ:<a href="http://algolab.dit.uoi.gr/DITUOI_AGP_SUDOKU/assignmentDitSudoku.zip"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo27xrMHHdB2WirMyjV15aC_QSEatUyQWZoB6QFTdwIsXy6MkEfeEjfo0vh5bZsSeI91Y&usqp=CAU" width="25px" height="25px"/></a>-->ΚΩΔΙΚΟΣ:dituoiagp
+
 **pip install ortools**
 
 ![sudokuimage](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/1200px-Sudoku-by-L2G-20050714.svg.png)
