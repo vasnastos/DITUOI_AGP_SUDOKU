@@ -19,7 +19,7 @@
 
 
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
-* Read Data input:[data input](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/readdatatemplate.py)
+* Read Data input
 
     ```
         def Formatter(sudokustart):
@@ -65,7 +65,7 @@
 
         ![ResourceOut](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/sudoku.png?token=APD2HAJ6YRAI5LLZ33UF4DLAWM7VI)
 
-* Pencil Mark:[pencil mark](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/Pencilmark.py)
+* Pencil Mark
     ```
         from readdatatemplate import StringRead
         from functools import reduce
@@ -192,7 +192,7 @@
            ![RESIMAGEGITHUBERROR](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/maqrkingnums.png?token=APD2HAOG774EASTTIUWAIO3AWR3LA)
    
 ## ΕΠΙΛΥΣΗ SUDOKU
-  * [LATIN SQUARE](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/latinSquaresCpSat.ipynb)
+  * [LATIN SQUARE](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/orToolsExamples/latinSquaresCpSat.ipynb)
   * ΑΠΟΤΕΛΕΣΜΑΤΑ SUDOKU ΣΕ ΤΧΤ ΜΟΡΦΗ:[results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/solverresults.out)
   * ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΠΟΛΛΑΠΛΩΝ ΠΡΟΒΛΗΜΑΤΩΝ SUDOKU:[multiple inputs](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudokusequence.input)
   * ΑΠΟΤΕΛΕΣΜΑ:[results.html](http://algolab.dit.uoi.gr/DITUOI_AGP_SUDOKU/)
