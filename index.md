@@ -14,6 +14,8 @@
 * [Sudoku Explanation](https://www.sudoku.name/rules/el)
 * [sudoku.sod](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudoku.sod)
 
+[ORTOOLS INTRO](ortools.md){: .btn }
+
 
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
 * Read Data input:[data input](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/readdatatemplate.py)
@@ -199,9 +201,4 @@
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
 * [SUDOKU DATASET](http://magictour.free.fr/subig20)
 
-<center>
- 
-    <button type="button" name="button" style="background-color:black; color:white;">ORTOOLS INTRO</button>  
-    
-</center>
 
