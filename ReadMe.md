@@ -65,7 +65,7 @@
 
     <br><br>
 
-* Pencil Mark:[pencil mark](Pencilmark.py)
+* Pencil Mark:[pencil mark](Solution/Pencilmark.py)
     ```
         from readdatatemplate import StringRead
         from functools import reduce
@@ -339,7 +339,7 @@
     ```
     * ΑΠΟΤΕΛΕΣΜΑΤΑ
         1. ΑΠΟΤΕΛΕΣΜΑΤΑ ΣΕ TXT ΑΡΧΕΙΟ:[results txt](3/solveroutput.out)
-        2. FORMATTED ΑΠΟΤΕΛΕΣΜΑΤΑ:[solver results](3/solveresults.out)
+        2. FORMATTED ΑΠΟΤΕΛΕΣΜΑΤΑ:[solver results](3/solverresults.out)
 
         ![cpsat results](3/solverresults.png)
     
@@ -348,6 +348,7 @@
 
 ## ORTOOLS Examples
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
-* [LATIN SQUARE](3/latinSquaresCpSat.ipynb)
+* [LATIN SQUARE](orToolsExamples/latinSquaresCpSat.ipynb)
 * [NQUEENS](https://github.com/vasnastos/AGP/blob/master/OR_TOOLS/nqueens.py)
+* [SUDOKU(4X4)](Solution/sudoku4X4.py)
 
