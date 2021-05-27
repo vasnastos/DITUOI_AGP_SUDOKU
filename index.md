@@ -13,8 +13,7 @@
 * [ΕΚΦΩΝΗΣΗ](https://chgogos.github.io/dituoi_agp/resources/agp_assignment20210515.pdf)
 * [Sudoku Explanation](https://www.sudoku.name/rules/el)
 * [sudoku.sod](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudoku.sod)
-
-[ORTOOLS INTRO](ortools.md){: .btn }
+* [ORTOOLS INTRO](ortools.md)
 
 
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
