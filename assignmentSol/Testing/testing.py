@@ -1,18 +1,26 @@
-from core import ToBoard
 import unittest as un
-from solver import SolveSudoku
+import sys
+sys.path.append('..')
+from sudoku import ToBoard,SolveSudoku
 
 class test(un.TestCase):
     def testCase1(self):
-        testSudoku ="000605000003020800045090270500000001062000540400000007098060450006040700000203000"
+        testSudoku='310004069000000200008005040000000005006000017807030000590700006600003050000100002'
         sudokuBoard = ToBoard(testSudoku)
         result = SolveSudoku(sudokuBoard)
         sudokuTest = verifySudoku(testSudoku, result)
-        self.assertEqual(True,sudokuTest,msg="ERROR")
-
+        self.assertEqual(True,sudokuTest,msg=f"Error on sequence:{testSudoku}")
+    
+    def testSudokuFile(self):
+        with open('testdata.txt','r') as S:
+            for sudoku in S:
+                sudoku=sudoku.strip()
+                sudokuBoard=ToBoard(sudoku)
+                result=SolveSudoku(sudokuBoard)
+                solverresult=verifySudoku(sudoku,result)
+                self.assertTrue(solverresult==True,msg='Error on Subsequence:{sudoku}') 
 
 def verifySudoku(testSudoku, result):
-    print(testSudoku,result)
     resultInt = []
     for i in range(0, len(testSudoku)):
         if int(testSudoku[i])!=0:
