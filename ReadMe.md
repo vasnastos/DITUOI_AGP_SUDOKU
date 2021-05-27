@@ -65,7 +65,7 @@
 
     <br><br>
 
-* Pencil Mark:[pencil mark](Solution/Pencilmark.py)
+* Pencil Mark:[pencil mark](Solution/PencilMark.py)
     ```
         from readdatatemplate import StringRead
         from functools import reduce
@@ -350,5 +350,5 @@
 * [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
 * [LATIN SQUARE](orToolsExamples/latinSquaresCpSat.ipynb)
 * [NQUEENS](https://github.com/vasnastos/AGP/blob/master/OR_TOOLS/nqueens.py)
-* [SUDOKU(4X4)](orToolsExamples/sudoku4X4.ipynb)
+* [SUDOKU(4X4)](orToolsExamples/sudoku4x4.ipynb)
 
