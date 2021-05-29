@@ -191,7 +191,7 @@
            ![RESIMAGEGITHUBERROR](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/maqrkingnums.png?token=APD2HAOG774EASTTIUWAIO3AWR3LA)
    
 ## ΕΠΙΛΥΣΗ SUDOKU
-  * ΑΠΟΤΕΛΕΣΜΑΤΑ SUDOKU ΣΕ ΤΧΤ ΜΟΡΦΗ:[results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/solverresults.out)
+  * ΑΠΟΤΕΛΕΣΜΑΤΑ ΜΙΑΣ ΑΚΟΛΟΥΘΙΑΣ SUDOKU ΣΕ ΤΧΤ ΜΟΡΦΗ:[results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/solverresults.out)
   * ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΠΟΛΛΑΠΛΩΝ ΠΡΟΒΛΗΜΑΤΩΝ SUDOKU:[multiple inputs](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudokusequence.input)
   * ΑΠΟΤΕΛΕΣΜΑ:[results.html](http://algolab.dit.uoi.gr/DITUOI_AGP_SUDOKU/)
   * [FINAL RESULTS](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/sequences.out?token=APD2HAN7BJ24LYMMQOA5B5TAXNQLA) 
