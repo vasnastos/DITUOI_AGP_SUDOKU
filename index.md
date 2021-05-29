@@ -15,7 +15,6 @@
 * [ΕΚΦΩΝΗΣΗ](https://chgogos.github.io/dituoi_agp/resources/agp_assignment20210515.pdf)
 * [Sudoku Explanation](https://www.sudoku.name/rules/el)
 * [sudoku.sod](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudoku.sod)
-* [ORTOOLS INTRO](ortools.md)
 
 
 ## ΕΡΩΤΗΜΑΤΑ ΕΡΓΑΣΙΑΣ
@@ -192,14 +191,10 @@
            ![RESIMAGEGITHUBERROR](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/RESOURCES/maqrkingnums.png?token=APD2HAOG774EASTTIUWAIO3AWR3LA)
    
 ## ΕΠΙΛΥΣΗ SUDOKU
-  * [LATIN SQUARE](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/orToolsExamples/latinSquaresCpSat.ipynb)
   * ΑΠΟΤΕΛΕΣΜΑΤΑ SUDOKU ΣΕ ΤΧΤ ΜΟΡΦΗ:[results txt](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/3/solverresults.out)
   * ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΠΟΛΛΑΠΛΩΝ ΠΡΟΒΛΗΜΑΤΩΝ SUDOKU:[multiple inputs](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudokusequence.input)
   * ΑΠΟΤΕΛΕΣΜΑ:[results.html](http://algolab.dit.uoi.gr/DITUOI_AGP_SUDOKU/)
  
-## ORTOOLS Examples
-* [OR_TOOLS chgogos](https://github.com/chgogos/dituoi_agp/tree/main/tools/ortools)
-* [OR_TOOLS](https://github.com/vasnastos/AGP/tree/master/OR_TOOLS)
-* [SUDOKU DATASET](http://magictour.free.fr/subig20)
+##[ORTOOLS EXAMPLES](ortools.md)
 
 
