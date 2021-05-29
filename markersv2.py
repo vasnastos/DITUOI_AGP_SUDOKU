@@ -13,9 +13,9 @@ def printMarkers(markers):
 def mark(sudokuString):
     # Δημιουργία κενού Dictionary
     markers = dict()
-    # Εύρος 9
+    # Εύρος 9 (Αριθμοί από 0 εώς 8)
     range9 = range(0, 9)
-
+    # Αριθμοί από 1 εώς 9
     range1_10 = range(1, 10)
 
     # Αρχικά θέτω ότι όλα τα κελιά μπορούν να πάρουν όλους τους αριθμούς
