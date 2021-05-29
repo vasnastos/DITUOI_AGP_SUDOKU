@@ -195,6 +195,6 @@
   * ΑΡΧΕΙΟ ΕΙΣΟΔΟΥ ΠΟΛΛΑΠΛΩΝ ΠΡΟΒΛΗΜΑΤΩΝ SUDOKU:[multiple inputs](https://github.com/vasnastos/DITUOI_AGP_SUDOKU/blob/main/RESOURCES/sudokusequence.input)
   * ΑΠΟΤΕΛΕΣΜΑ:[results.html](http://algolab.dit.uoi.gr/DITUOI_AGP_SUDOKU/)
  
-##[ORTOOLS EXAMPLES](ortools.md)
+## [ORTOOLS EXAMPLES](ortools.md)
 
 
