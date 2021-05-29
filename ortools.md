@@ -212,5 +212,6 @@
 - [https://google.github.io/or-tools/](https://google.github.io/or-tools/)
 - [https://medium.com/google-or-tools/google-or-tools-a-guide-39f439a5cd0f](https://medium.com/google-or-tools/google-or-tools-a-guide-39f439a5cd0f)
 - [https://www.ics.uci.edu/~dechter/courses/ics-275/fall-2020/slides/OR-Tools_CP-SAT_Solver_Tutorial.pdf](https://www.ics.uci.edu/~dechter/courses/ics-275/fall-2020/slides/OR-Tools_CP-SAT_Solver_Tutorial.pdf)
+- [https://github.com/gabrielSoudry/Cp-Ortool_SudokuSolver/blob/master/gabriel_solver.py](https://github.com/gabrielSoudry/Cp-Ortool_SudokuSolver/blob/master/gabriel_solver.py)
 
 
