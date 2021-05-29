@@ -197,4 +197,6 @@
  
 ## [ORTOOLS EXAMPLES](ortools.md)
 
+## [FINAL RESULTS](https://raw.githubusercontent.com/vasnastos/DITUOI_AGP_SUDOKU/main/sequences.out?token=APD2HAN7BJ24LYMMQOA5B5TAXNQLA)
+
 
