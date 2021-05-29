@@ -1,5 +1,5 @@
 from pip._vendor import requests
-from PencilMark import Marking
+from PencilMark import CmdMarking
 import math
 import requests as reqs
 from ortools.sat.python import cp_model
@@ -52,7 +52,7 @@ def Formatter(data):
 
 #Displays the Pencil Mark
 def pencilMark(data):
-    Marking(data)
+    CmdMarking(data)
 
 
 #Solve the sudoku Puzzle and return a string

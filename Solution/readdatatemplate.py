@@ -1,11 +1,10 @@
 import os
 import sys
 import math
-from typing import List
 
 default=os.path.join('','RESOURCES','sudoku.sod')
 
-def ToBoard(rawdata:str)->List:
+def ToBoard(rawdata:str)->list:
     gridsize=int(math.sqrt(len(rawdata)))
     substrs=list()
     start=0

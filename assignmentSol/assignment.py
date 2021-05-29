@@ -4,13 +4,13 @@ from sudoku import *
 def main():
     inputdata=Input('') 
     stringtolist=list()
-    for x in inputdata:
-       print(f'Sequence used:{x}\n')
-       stringtolist=ToBoard(x)
+    for sudoku in inputdata:
+       print(f'Sequence used:{sudoku}\n')
+       stringtolist=ToBoard(sudoku)
        print('Preview')
        Formatter(stringtolist)
        print('\nMarking')
-       pencilMark(stringtolist)
+       pencilMark(sudoku)
        print('\nSolution')
        solutiontoproblem=SolveSudoku(stringtolist)
        solutiontolist=ToBoard(solutiontoproblem)
