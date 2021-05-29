@@ -2,7 +2,7 @@
 from sudoku import *
 
 def main():
-    inputdata=Input('')
+    inputdata=Input('') #
     stringtolist=list()
     for x in inputdata:
        print(f'Sequence used:{x}\n')
