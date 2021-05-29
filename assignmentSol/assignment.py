@@ -6,15 +6,13 @@ def main():
     stringtolist=list()
     for sudoku in inputdata:
        print(f'Sequence used:{sudoku}\n')
-       stringtolist=ToBoard(sudoku)
        print('Preview')
-       Formatter(stringtolist)
+       Formatter(sudoku)
        print('\nMarking')
        pencilMark(sudoku)
        print('\nSolution')
-       solutiontoproblem=SolveSudoku(stringtolist)
-       solutiontolist=ToBoard(solutiontoproblem)
-       Formatter(solutiontolist)
+       solutionproblem=SolveSudoku(sudoku)
+       Formatter(solutionproblem)
        print('-------------------------------------------------------------------\n')
 
 if __name__=="__main__":

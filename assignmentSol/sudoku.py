@@ -25,7 +25,8 @@ def ToBoard(rawdata:str)->list:
     return substrs
 
 # Formats and display a preview into the cmd
-def Formatter(data):
+def Formatter(sudokustr):
+    data=ToBoard(sudokustr)
     if len(data)==0:
         return 0
     totallinelength = len(data[0]) + 4
@@ -56,7 +57,8 @@ def pencilMark(data):
 
 
 #Solve the sudoku Puzzle and return a string
-def SolveSudoku(data):
+def SolveSudoku(sudokustr):
+    data=ToBoard(sudokustr)
     model=cp_model.CpModel()
     pos=dict()
     for x in range(len(data)):
