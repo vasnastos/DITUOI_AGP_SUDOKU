@@ -158,50 +158,66 @@
         # ORtool CpSat επιλυτής
         from ortools.sat.python import cp_model
 
-        # Μοντέλο
-        model = cp_model.CpModel()
 
-        # Μεταβλητές απόφασης
-        cells = dict()
-        range4 = range(0, 4)
+        def SolveSudoku4x4(sudokuString):
 
-        for row in range4:
-            for column in range4:
-                cells[row, column] = model.NewIntVar(1, 4, f"cell{row}{column}")
+            # Μοντέλο
+            model = cp_model.CpModel()
 
-        # Περιορισμοί
-        # Ήδη συμπληρωμένα κελιά
-        model.Add(cells[0, 1] == 2)
-        model.Add(cells[0, 2] == 3)
-        model.Add(cells[1, 0] == 3)
-        model.Add(cells[2, 1] == 1)
-        model.Add(cells[3, 2] == 2)
+            # Μεταβλητές απόφασης
+            cells = dict()
 
-        ## Όλα τα κελιά σε κάθε γραμμή έχουν διαφορετική τιμή
-        for row in range4:
-            model.AddAllDifferent(cells[row, column] for column in range4)
+            range4 = range(0, 4)
 
-        ## Όλα τα κελιά σε κάθε στήλη έχουν διαφορετική τιμή
-        for column in range4:
-            model.AddAllDifferent(cells[row, column] for row in range4)
-
-        ## Όλα τα κελιά σε κάθε εσωτερικό τετράγωνο έχουν διαφορετική τιμή
-        for rowid in range(0,4,2):
-            for colid in range(0,4,2):
-                model.AddAllDifferent([cells[i,j] for j in range(colid,(colid+2)) for i in range(rowid,(rowid+2))])
-
-        # Κλήση του επιλυτή
-        solver = cp_model.CpSolver()
-        status = solver.Solve(model)
-
-        # Εκτύπωση του αποτελέσματος
-        if status == cp_model.OPTIMAL:
             for row in range4:
-                print(
-                    solver.Value(cells[row, 0]),
-                    solver.Value(cells[row, 1]),
-                    solver.Value(cells[row, 2]),
-                    solver.Value(cells[row, 3]),
+                for column in range4:
+                    cells[row, column] = model.NewIntVar(1, 4, f"cell{row}{column}")
+
+            # Περιορισμοί
+            # Ήδη συμπληρωμένα κελιά
+            for row in range4:
+                for column in range4:
+                    cellString = sudokuString[row * 4 + column]
+                    if cellString != "0":
+                        model.Add(cells[row, column] == int(cellString))
+
+            ## Όλα τα κελιά σε κάθε γραμμή έχουν διαφορετική τιμή
+            for row in range4:
+                model.AddAllDifferent(cells[row, column] for column in range4)
+
+            ## Όλα τα κελιά σε κάθε στήλη έχουν διαφορετική τιμή
+            for column in range4:
+                model.AddAllDifferent(cells[row, column] for row in range4)
+
+            ## Όλα τα κελιά σε κάθε εσωτερικό τετράγωνο έχουν διαφορετική τιμή
+            for rowid in range(0, 4, 2):
+                for colid in range(0, 4, 2):
+                    model.AddAllDifferent(
+                        [
+                            cells[i, j]
+                            for j in range(colid, (colid + 2))
+                            for i in range(rowid, (rowid + 2))
+                        ]
+                    )
+
+            # Κλήση του επιλυτή
+            solver = cp_model.CpSolver()
+            status = solver.Solve(model)
+
+            # Εκτύπωση του αποτελέσματος
+            solution = ""
+            if status == cp_model.OPTIMAL:
+                for row in range4:
+                    for column in range4:
+                        solution = solution + str(solver.Value(cells[row, column]))
+            return solution
+
+
+        if __name__ == "__main__":
+            sudoku = "0230300001000020"
+            solution = SolveSudoku4x4(sudoku)
+            print(solution)
+
         
 ```
 
