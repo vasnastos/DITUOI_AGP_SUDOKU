@@ -4,7 +4,6 @@
    - !!!ΠΡΟΤΥΠΟ ΕΡΓΑΣΙΑΣ:<a href="http://algolab.dit.uoi.gr/DITUOI_AGP_SUDOKU/assignmentDitSudoku.zip"><img src="https://image.flaticon.com/icons/png/512/28/28814.png" width="25px" height="25px"/></a>-->ΚΩΔΙΚΟΣ:dituoiagp
 
    - ΟΔΗΓΙΕΣ ΕΓΚΑΤΑΣΤΑΣΗΣ ORTOOLS:[ortools_installation](installation.md)
-[http://algolab.dit.uoi.gr/DITUOI_AGP_SUDOKU/assignmentDitSudoku.zip](http://algolab.dit.uoi.gr/DITUOI_AGP_SUDOKU/assignmentDitSudoku.zip)
 ![sudokuimage](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/1200px-Sudoku-by-L2G-20050714.svg.png)
 
 **Το Σουντόκου είναι παζλ που βασίζεται στη λογική. Στόχος είναι να συμπληρωθούν όλα τα κουτάκια στον πίνακα (9x9), ώστε κάθε στήλη, κάθε σειρά και κάθε κουτάκι 3x3 να περιέχουν όλα τα ψηφία από το 1 μέχρι το 9. Μερικά κουτάκια είναι ήδη συμπληρωμένα, ώστε να υπάρχει μόνο μία δυνατή λύση.
