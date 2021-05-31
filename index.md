@@ -1,7 +1,7 @@
 # Assignment 3-Or TOOLS
 
 ## **ΣΗΜΑΝΤΙΚΑ**
-   - !!!ΠΡΟΤΥΠΟ ΕΡΓΑΣΙΑΣ:<a href="https://github.com/vasnastos/AGP/raw/master/Assignment_3/assignmentDitSudoku.zip"><img src="https://image.flaticon.com/icons/png/512/28/28814.png" width="25px" height="25px"/></a>-->ΚΩΔΙΚΟΣ:dituoiagp
+   - !!!ΠΡΟΤΥΠΟ ΕΡΓΑΣΙΑΣ:<a href="http://algolab.dit.uoi.gr/DITUOI_AGP_SUDOKU/assignmentDitSudoku.zip" target="_blank"><img src="https://image.flaticon.com/icons/png/512/28/28814.png" width="25px" height="25px"/></a>-->ΚΩΔΙΚΟΣ:dituoiagp
 
    - ΟΔΗΓΙΕΣ ΕΓΚΑΤΑΣΤΑΣΗΣ ORTOOLS:[ortools_installation](installation.md)
 ![sudokuimage](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/1200px-Sudoku-by-L2G-20050714.svg.png)
