@@ -1,7 +1,8 @@
 import unittest as un
 import sys
 sys.path.append('..')
-from sudoku import ToBoard,SolveSudoku
+from sudoku import ToBoard
+from solver import SolveSudoku
 
 class test(un.TestCase):
     def testCase1(self):

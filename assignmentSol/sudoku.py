@@ -11,6 +11,10 @@ def Input(filename):
     return data.split('\n')
 
 #Converts a sudoku sequence into a list
+# 087002010204017003006800705508001000640008100002050670439180007020900030700023091
+# [1][0]-->10
+
+
 def ToBoard(rawdata:str)->list:
     if rawdata=='':
         return list()
@@ -29,7 +33,6 @@ def Formatter(sudokustr):
     data=ToBoard(sudokustr)
     if len(data)==0:
         return 0
-    totallinelength = len(data[0]) + 4
     print(str("." + "-" * 6 + "") * 3, end="")
     print(".")
     counter = 0
